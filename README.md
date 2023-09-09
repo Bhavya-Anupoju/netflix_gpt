@@ -1,3 +1,14 @@
+# Netflix Gpt
+
+Create React App
+Configured Tailwind css
+Created components Header, Login & body
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
