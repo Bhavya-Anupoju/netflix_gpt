@@ -3,6 +3,8 @@
 Create React App
 Configured Tailwind css
 Created components Header, Login & body
+Sign up & Sign In with validation
+
 
 
 
