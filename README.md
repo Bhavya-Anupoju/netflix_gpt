@@ -4,6 +4,15 @@ Create React App
 Configured Tailwind css
 Created components Header, Login & body
 Sign up & Sign In with validation
+Firebase setup
+Firebase deploy
+Firebase user setup done using signup & signin API from firebase documentation
+setup redux store to save user details
+Update Profile API call
+Sign out feature
+TMDB API - gives proper documentation of latest movies
+
+
 
 
 
