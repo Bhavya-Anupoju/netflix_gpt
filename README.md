@@ -11,6 +11,24 @@ setup redux store to save user details
 Update Profile API call
 Sign out feature
 TMDB API - gives proper documentation of latest movies
+HEADER: Restrict User from Signout/Login
+HEADER: Unsubscribed to the 'onAuthStateChanged' API callback
+CONSTANTS : Added All the URLs to constants File
+Register in TMDB site
+Create an App & get Access token, API Key
+Get Data from 'Now Playing' API
+Added the movies data to the store
+Created a custom hook "useNowPlayingMovies" and added the data to the store
+Main container for video
+Secondary container for video cards
+Get data for Trailer videos from Videos API
+Created a custom hook to get the above trailer data
+Embedded Youtube video onto the main container
+Made the video autoplay & mute
+
+
+
+
 
 
 
