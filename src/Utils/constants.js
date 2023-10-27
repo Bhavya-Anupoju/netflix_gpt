@@ -10,10 +10,10 @@ export const API_OPTIONS = {
     headers: {
       accept: 'application/json',
       //we import the keys from .env fiel with 'process.env' before the variable
-      Authorization: 'Bearer' + process.env.REACT_APP_TMDB_KEY
+      Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY
     }
   };
-
+console.log(process.env.REACT_APP_TMDB_KEY)
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const SUPPORTED_CONSTANTS = [
@@ -22,4 +22,5 @@ export const SUPPORTED_CONSTANTS = [
   {identifier : "spanish", name: "Spanish"},
 ]
 
-export const OpenAI_Key = process.env.REACT_APP_OpenAI_Key
+console.log(process.env.REACT_APP_OPENAI_KEY)
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;

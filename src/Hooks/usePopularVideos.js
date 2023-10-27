@@ -17,6 +17,7 @@ const usePopularVideos = () => {
     useEffect(()=>{
         // calling the API here
         if(!popularVideos) getPopularData();
+        // getPopularData();
     },[])
 
 }

@@ -19,6 +19,7 @@ const useTrailerVideo = (movieId) => {
 
     useEffect(() => {
         if(!trailerVideo) movieVideos();
+        // movieVideos();
     },[])
 
 }

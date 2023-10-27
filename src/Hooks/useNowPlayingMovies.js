@@ -21,6 +21,7 @@ const useNowPlayingMovies = () => {
     useEffect(()=>{
         // calling the API here
         if(!nowPlayingMovies) getNowPlayingMovies();
+        // getNowPlayingMovies();
     },[])
 
 }
