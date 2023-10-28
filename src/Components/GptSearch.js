@@ -9,9 +9,9 @@ const GptSearch = () => {
   return (
     <>
       <div className="fixed -z-10">    
-        <img className='h-screen object-cover' src={LOGO} alt="background" />
+        <img className="h-screen object-cover md:h-auto" src={LOGO} alt="background" />
       </div>
-      <div>
+      <div className=''>
           <GptSearchBar />
           <GptMovieSuggestions/>
       </div>
