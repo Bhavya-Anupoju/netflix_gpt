@@ -5,6 +5,7 @@ import GptSearchBar from './GptSearchBar'
 import GptMovieSuggestions from './GptMovieSuggestions'
 import { LOGO } from '../Utils/constants'
 
+
 const GptSearch = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const GptSearch = () => {
       </div>
       <div className=''>
           <GptSearchBar />
-          <GptMovieSuggestions/>
+          <GptMovieSuggestions />
       </div>
     </>
   )

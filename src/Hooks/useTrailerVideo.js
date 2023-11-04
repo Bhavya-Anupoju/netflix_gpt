@@ -10,6 +10,7 @@ const useTrailerVideo = (movieId) => {
     const movieVideos = async () => {
         const data = await fetch(`https://api.themoviedb.org/3/movie/${movieId}/videos?language=en-US`, API_OPTIONS)
         const json = await data.json()
+        console.log(json)
 
         const trailersList = json.results.filter((video) => video.type === "Trailer")
         const trailer = trailersList.length ? trailersList[0] : json.results[0];
@@ -18,7 +19,7 @@ const useTrailerVideo = (movieId) => {
     };
 
     useEffect(() => {
-        if(!trailerVideo) movieVideos();
+        movieVideos();
         // movieVideos();
     },[])
 

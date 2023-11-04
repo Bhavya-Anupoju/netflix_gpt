@@ -1,12 +1,19 @@
 import React from 'react'
 import { IMG_CDN_URL } from '../Utils/constants'
+import { useNavigate } from 'react-router-dom';
 
-const MovieCard = ( { posterPath } ) => {
+const MovieCard = (props) => {
+  const { id, posterPath } = props
+  const navigate = useNavigate()
+
+  const handleWatch =  () => {
+    navigate(`/watch/${id}`);
+  }
+
   if (!posterPath) return null;
   return (
     <div className='w-36 md:w-48 pr-4'>
-        <img src = {IMG_CDN_URL + posterPath} alt='Poster'/>
-    </div>
+        <img src = {IMG_CDN_URL + posterPath} alt='Poster' onClick={handleWatch} /></div>
     )
 }
 

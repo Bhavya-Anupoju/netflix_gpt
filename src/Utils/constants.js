@@ -3,7 +3,7 @@ export const LOGO = "https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-40
 
 export const Netflix_Logo = "https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png";
 
-export const photoURL = "https://cdn-icons-png.flaticon.com/512/219/219969.png";
+export const photoURL = "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117";
 
 export const API_OPTIONS = {
     method: 'GET',
@@ -13,7 +13,6 @@ export const API_OPTIONS = {
       Authorization: 'Bearer ' + process.env.REACT_APP_TMDB_KEY
     }
   };
-console.log(process.env.REACT_APP_TMDB_KEY)
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const SUPPORTED_CONSTANTS = [
@@ -22,5 +21,4 @@ export const SUPPORTED_CONSTANTS = [
   {identifier : "spanish", name: "Spanish"},
 ]
 
-console.log(process.env.REACT_APP_OPENAI_KEY)
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;

@@ -14,14 +14,9 @@ const useNowPlayingMovies = () => {
         console.log(json)
         dispatch(addNowPlayingMovies(json.results));    
     }
-    //fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', options)
-
-
 
     useEffect(()=>{
-        // calling the API here
         if(!nowPlayingMovies) getNowPlayingMovies();
-        // getNowPlayingMovies();
     },[])
 
 }
