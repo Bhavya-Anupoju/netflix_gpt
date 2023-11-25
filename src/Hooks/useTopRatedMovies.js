@@ -18,6 +18,7 @@ const useTopRatedMovies = () => {
   useEffect(() => {
     // calling the API here
     if (!topRatedMovies) getTopRatedMovies();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 };
 

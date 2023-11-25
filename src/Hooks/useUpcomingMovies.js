@@ -19,6 +19,7 @@ const useUpcomingMovies = () => {
   useEffect(() => {
     // calling the API here
     if (!upcomingMovies) getUpcomingData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 };
 

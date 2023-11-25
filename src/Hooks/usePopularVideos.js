@@ -19,6 +19,7 @@ const usePopularVideos = () => {
     // calling the API here
     if (!popularVideos) getPopularData();
     // getPopularData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 };
 
